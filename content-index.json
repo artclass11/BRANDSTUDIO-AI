@@ -11,10 +11,11 @@
       "asset_filename": "brandstudio-reel.mp4",
       "asset_available_locally": true,
       "public_media_url": "https://artclass.floot.app/_cdn/static/8f5c11e5-06ed-4d5f-b2c8-2a84fd73c25b-brandstudio-reel.mp4",
-      "buffer_status": "scheduled_automatic",
+      "buffer_status": "sending",
       "buffer_post_id": "6aed5929dbada656bef27d17",
       "buffer_due_at": "2026-11-06T05:18:00.000Z",
-      "media_binary_location": "Floot public static asset CDN; not GitHub binary"
+      "media_binary_location": "Floot public static asset CDN; not GitHub binary",
+      "buffer_mode": "shareNow"
     }
   ]
 }
