@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-06",
+  "brand": "BRANDSTUDIO",
+  "instagram_account": "@brandsstudio11",
+  "platform": "instagram",
+  "format": "reel",
+  "editorial_topic": "On-device / edge AI — when AI processing can happen on the device rather than entirely in the cloud",
+  "public_language": "Marathi (Devanagari)",
+  "asset": {
+    "local_filename": "brandstudio-reel.mp4",
+    "local_path": "/mnt/data/reel_work/brandstudio/brandstudio-reel.mp4",
+    "mime_type": "video/mp4",
+    "size_bytes": 2280040,
+    "sha256": "4720cb99cedc0440670be04d2c607ab64283a686363f9f41900149785cf69b26",
+    "duration_seconds": 24,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "audio": "Original procedurally composed ambient instrumental; no spoken TTS"
+  },
+  "caption": "कृत्रिम बुद्धिमत्तेची प्रत्येक प्रक्रिया क्लाउडवरच चालली पाहिजे असे नाही. On-device / edge processing मध्ये काही गणना डिव्हाइसजवळ किंवा डिव्हाइसवर होते. त्यामुळे काही परिस्थितींमध्ये प्रतिसादाचा विलंब आणि नेटवर्कवरून पाठवला जाणारा डेटा कमी होऊ शकतो. पण स्थानिक प्रक्रिया म्हणजे आपोआप पूर्ण गोपनीयता नव्हे—अॅपची रचना, प्रवेश नियंत्रण आणि सुरक्षा महत्त्वाची. तसेच चिपची क्षमता, बॅटरी आणि उष्णता या मर्यादा लक्षात घ्या.\n\nस्रोत: ITU‑T X.1648 (2025) — https://www.itu.int/epublications/publication/itu-t-x-1648-2025-04-guideline-on-edge-computing-data-security ; NIST (2022) — https://www.nist.gov/publications/analyzing-data-privacy-edge-systems\n\nBRANDSTUDIO | @brandsstudio11\nवेबसाइट: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n#कृत्रिमबुद्धिमत्ता #तंत्रज्ञान #डिजिटलसुरक्षा #BRANDSTUDIO",
+  "narration_script": "कृत्रिम बुद्धिमत्तेसाठी प्रत्येक वेळी क्लाउड आवश्यक नसतो. On-device किंवा edge processing मध्ये काही गणना थेट डिव्हाइसवर किंवा त्याच्या जवळ होते. यामुळे काही कामांमध्ये प्रतिसादाचा वेळ आणि नेटवर्कवरील अवलंबित्व कमी होऊ शकते. पण याचा अर्थ पूर्ण गोपनीयता असा नाही. अॅपची सुरक्षा, परवानग्या, चिपची क्षमता, बॅटरी आणि उष्णता यांचाही विचार करा.",
+  "sources": [
+    {
+      "publisher": "ITU-T",
+      "title": "X.1648 — Guideline on edge computing data security",
+      "url": "https://www.itu.int/epublications/publication/itu-t-x-1648-2025-04-guideline-on-edge-computing-data-security"
+    },
+    {
+      "publisher": "NIST",
+      "title": "Analyzing Data Privacy in Edge Systems",
+      "url": "https://www.nist.gov/publications/analyzing-data-privacy-edge-systems"
+    }
+  ],
+  "visual_disclosure": "Original vector/motion-graphics explainer, not filmed product footage. Palette uses BRANDSTUDIO olive and white visual identity. No external stock assets.",
+  "production": "Rendered locally with free/open-source FFmpeg and Python/Pillow-based motion graphics. Original programmatic ambient score. No paid service or generation credits. No TTS engine was executed or auditioned; this is text-led/music-led and includes a separate voice script.",
+  "qa": {
+    "file_exists": true,
+    "ffprobe_verified": true,
+    "dimensions": "1080x1920",
+    "duration_seconds": 24,
+    "fps": 24,
+    "video_audio_streams": [
+      "H.264 video",
+      "AAC audio"
+    ],
+    "phone_number_checked": true,
+    "caption_language": "Marathi",
+    "visual_review": "Completed; Devanagari title/captions and Latin-digit contact line visually reviewed.",
+    "buffer_submission": "BLOCKED_NOT_SUBMITTED",
+    "reason": "The current GitHub connector can write text but cannot transfer this local MP4 binary to the public repository. No verified anonymous raw MP4 URL exists, so Buffer was not sent an invalid asset.",
+    "buffer_post_id": null,
+    "buffer_status": "not_submitted"
+  }
+}
