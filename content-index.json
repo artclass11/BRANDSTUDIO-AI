@@ -2,5 +2,16 @@
   "schema_version": 1,
   "brand": "BRANDSTUDIO",
   "instagram": "@brandsstudio11",
-  "entries": []
+  "entries": [
+    {
+      "date": "2026-11-06",
+      "format": "reel",
+      "topic": "On-device / edge AI",
+      "manifest": "2026-11-06/reel-manifest.json",
+      "asset_filename": "brandstudio-reel.mp4",
+      "asset_available_locally": true,
+      "public_media_url": null,
+      "buffer_status": "not_submitted_binary_upload_blocked"
+    }
+  ]
 }
