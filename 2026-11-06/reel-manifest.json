@@ -54,10 +54,11 @@
     "buffer_submission": "SCHEDULED_AUTOMATIC",
     "reason": "Buffer accepted the video as an Instagram Reel in automatic publishing mode; GitHub stores the manifest/index while the MP4 binary is served from the published public CDN because this GitHub connector cannot transfer binary MP4 bytes.",
     "buffer_post_id": "6aed5929dbada656bef27d17",
-    "buffer_status": "scheduled",
+    "buffer_status": "sending",
     "buffer_scheduling_type": "automatic",
-    "buffer_due_at": "2026-11-06T05:18:00.000Z",
-    "buffer_mode": "addToQueue",
-    "instagram_channel": "@brandsstudio11"
+    "buffer_due_at": "2026-11-06T04:37:30.602Z",
+    "buffer_mode": "shareNow",
+    "instagram_channel": "@brandsstudio11",
+    "sent_at": null
   }
 }
