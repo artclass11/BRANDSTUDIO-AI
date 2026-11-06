@@ -18,7 +18,9 @@
     "fps": 24,
     "video_codec": "H.264",
     "audio_codec": "AAC",
-    "audio": "Original procedurally composed ambient instrumental; no spoken TTS"
+    "audio": "Original procedurally composed ambient instrumental; no spoken TTS",
+    "public_url": "https://artclass.floot.app/_cdn/static/8f5c11e5-06ed-4d5f-b2c8-2a84fd73c25b-brandstudio-reel.mp4",
+    "hosting_provider": "Floot public static asset CDN (used as binary-media fallback; MP4 binary is not committed to GitHub)"
   },
   "caption": "कृत्रिम बुद्धिमत्तेची प्रत्येक प्रक्रिया क्लाउडवरच चालली पाहिजे असे नाही. On-device / edge processing मध्ये काही गणना डिव्हाइसजवळ किंवा डिव्हाइसवर होते. त्यामुळे काही परिस्थितींमध्ये प्रतिसादाचा विलंब आणि नेटवर्कवरून पाठवला जाणारा डेटा कमी होऊ शकतो. पण स्थानिक प्रक्रिया म्हणजे आपोआप पूर्ण गोपनीयता नव्हे—अॅपची रचना, प्रवेश नियंत्रण आणि सुरक्षा महत्त्वाची. तसेच चिपची क्षमता, बॅटरी आणि उष्णता या मर्यादा लक्षात घ्या.\n\nस्रोत: ITU‑T X.1648 (2025) — https://www.itu.int/epublications/publication/itu-t-x-1648-2025-04-guideline-on-edge-computing-data-security ; NIST (2022) — https://www.nist.gov/publications/analyzing-data-privacy-edge-systems\n\nBRANDSTUDIO | @brandsstudio11\nवेबसाइट: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n#कृत्रिमबुद्धिमत्ता #तंत्रज्ञान #डिजिटलसुरक्षा #BRANDSTUDIO",
   "narration_script": "कृत्रिम बुद्धिमत्तेसाठी प्रत्येक वेळी क्लाउड आवश्यक नसतो. On-device किंवा edge processing मध्ये काही गणना थेट डिव्हाइसवर किंवा त्याच्या जवळ होते. यामुळे काही कामांमध्ये प्रतिसादाचा वेळ आणि नेटवर्कवरील अवलंबित्व कमी होऊ शकते. पण याचा अर्थ पूर्ण गोपनीयता असा नाही. अॅपची सुरक्षा, परवानग्या, चिपची क्षमता, बॅटरी आणि उष्णता यांचाही विचार करा.",
@@ -49,9 +51,13 @@
     "phone_number_checked": true,
     "caption_language": "Marathi",
     "visual_review": "Completed; Devanagari title/captions and Latin-digit contact line visually reviewed.",
-    "buffer_submission": "BLOCKED_NOT_SUBMITTED",
-    "reason": "The current GitHub connector can write text but cannot transfer this local MP4 binary to the public repository. No verified anonymous raw MP4 URL exists, so Buffer was not sent an invalid asset.",
-    "buffer_post_id": null,
-    "buffer_status": "not_submitted"
+    "buffer_submission": "SCHEDULED_AUTOMATIC",
+    "reason": "Buffer accepted the video as an Instagram Reel in automatic publishing mode; GitHub stores the manifest/index while the MP4 binary is served from the published public CDN because this GitHub connector cannot transfer binary MP4 bytes.",
+    "buffer_post_id": "6aed5929dbada656bef27d17",
+    "buffer_status": "scheduled",
+    "buffer_scheduling_type": "automatic",
+    "buffer_due_at": "2026-11-06T05:18:00.000Z",
+    "buffer_mode": "addToQueue",
+    "instagram_channel": "@brandsstudio11"
   }
 }
