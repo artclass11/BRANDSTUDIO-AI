@@ -1,11 +1,16 @@
 from PIL import Image, ImageDraw, ImageFont
 import json, os, textwrap, subprocess
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "daily-content" / "2026-11-07.json"
+LOCAL_DATE = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d")
+INPUT = ROOT / "daily-content" / (LOCAL_DATE + ".json")
+if not INPUT.exists():
+    raise FileNotFoundError("Missing daily brand brief: " + str(INPUT))
 data = json.loads(INPUT.read_text(encoding="utf-8"))
-OUT = ROOT / "2026-11-07"
+OUT = ROOT / LOCAL_DATE
 OUT.mkdir(exist_ok=True)
 W, H = 1080, 1350
 FONT_CANDIDATES = [
