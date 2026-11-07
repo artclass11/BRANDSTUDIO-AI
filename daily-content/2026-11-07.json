@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "display": "BRANDSTUDIO",
+    "account": "@brandsstudio11",
+    "footer": "@BRANDSSTUDIO11",
+    "contact": "9921894495"
+  },
+  "feed": {
+    "title": "फोनमधील AI आता डिव्हाइसवरही चालू शकते.",
+    "subtitle": "ON-DEVICE AI / काय बदलते?",
+    "diagram": "phone",
+    "notes": [
+      "काही समर्थित कामे स्थानिक पातळीवर प्रक्रिया होतात",
+      "नेटवर्क आणि गोपनीयतेची मर्यादा तपासा"
+    ]
+  },
+  "carousel": [
+    {
+      "title": "अनुप्रयोगातून मॉडेलपर्यंत एक स्थानिक मार्ग.",
+      "subtitle": "HOW IT WORKS / ANDROID",
+      "diagram": "flow",
+      "notes": [
+        "AICore हे मध्यस्थ स्तर आहे",
+        "सर्व फीचर सर्व फोनवर नसतात"
+      ]
+    },
+    {
+      "title": "ऑफलाइन वापर आणि कमी विलंबाचे फायदे.",
+      "subtitle": "BENEFITS / DEVICE",
+      "diagram": "phone",
+      "notes": [
+        "नेटवर्कशिवाय काही कामे चालू शकतात",
+        "प्रतिसादात कमी विलंब होऊ शकतो"
+      ]
+    },
+    {
+      "title": "मॉडेलची क्षमता डिव्हाइसवर अवलंबून.",
+      "subtitle": "LIMITS / PERFORMANCE",
+      "diagram": "checklist",
+      "notes": [
+        "मेमरी आणि टोकन मर्यादा बदलतात",
+        "काही कामांसाठी क्लाउडची गरज असते"
+      ]
+    },
+    {
+      "title": "On-device म्हणजे पूर्ण गोपनीयतेची हमी नाही.",
+      "subtitle": "PRIVACY / DATA FLOW",
+      "diagram": "flow",
+      "notes": [
+        "अॅप इतर नेटवर्क विनंत्या करू शकते",
+        "प्रत्येक वैशिष्ट्याचा डेटा प्रवाह वाचा"
+      ]
+    },
+    {
+      "title": "फोन निवडताना AI चा दावा तपासा.",
+      "subtitle": "BUYER CHECKLIST",
+      "diagram": "checklist",
+      "notes": [
+        "कुठले काम स्थानिक पातळीवर चालते?",
+        "ऑफलाइन चालते का? डेटा कुठे जातो?"
+      ]
+    }
+  ]
+}
