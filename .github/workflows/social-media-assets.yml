@@ -1,0 +1,34 @@
+name: Build daily Instagram media
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'daily-content/**'
+      - '.github/scripts/generate_social_assets.py'
+      - '.github/workflows/social-media-assets.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free image tooling and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-core
+          python -m pip install --upgrade pip
+          python -m pip install Pillow
+      - name: Render approved daily assets
+        run: python .github/scripts/generate_social_assets.py
+      - name: Commit public media binaries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 2026-11-07/*.jpg
+          if git diff --cached --quiet; then
+            echo "No asset changes."
+          else
+            git commit -m "Build approved Instagram media for 2026-11-07"
+            git push
+          fi
