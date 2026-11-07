@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-07",
+  "brand": "BRANDSTUDIO",
+  "instagram_account": "@brandsstudio11",
+  "platform": "Instagram",
+  "language": "Marathi-first",
+  "topic": "On-device AI: what runs locally, practical benefits, capability limits and privacy caveats",
+  "repository": "artclass11/BRANDSTUDIO-AI",
+  "github_actions_build": {
+    "workflow_run_id": 42379938017,
+    "workflow_path": ".github/workflows/social-media-assets.yml",
+    "result": "success",
+    "renderer": "Pillow/Noto Sans Devanagari; static editorial concept diagrams"
+  },
+  "visual_identity": "olive/white on dark background; original diagrams rather than stock photographs",
+  "formats": [
+    {
+      "format": "feed",
+      "asset_filename": "2026-11-07/feed.jpg",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 101757,
+      "sha256": "15ad2261a6bb0e83c88a01e61bb0a096771ebb8c",
+      "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/feed.jpg",
+      "alt_text": "गडद ऑलिव्ह पार्श्वभूमीवरील स्मार्टफोनचे मूळ संकल्पनाचित्र. फोनच्या पडद्यावर AI चिप दाखवली आहे आणि काही कृत्रिम बुद्धिमत्ता प्रक्रिया थेट डिव्हाइसवर होऊ शकते हे स्पष्ट केले आहे.",
+      "caption": "फोनमधील कृत्रिम बुद्धिमत्ता म्हणजे प्रत्येक वेळी क्लाउडशी संपर्क नव्हे. Android मधील AICore आणि Gemini Nano सारख्या रचनेत काही समर्थित कामे थेट डिव्हाइसवर प्रक्रिया करू शकतात. यामुळे नेटवर्क नसताना काही सुविधा चालू राहू शकतात, प्रतिसादाचा विलंब कमी होऊ शकतो आणि स्थानिक प्रक्रियेत इनपुट डिव्हाइसवर राहू शकतो.\n\nपण मर्यादा महत्त्वाच्या आहेत: फोनची क्षमता, मॉडेलची टोकन-मर्यादा, मेमरी आणि फीचर सपोर्ट बदलतो. कठीण विनंतीसाठी अॅप क्लाउड मॉडेलकडे जाऊ शकते. अॅपमधील इतर नेटवर्क विनंत्या वेगळे डेटा प्रवाह तयार करू शकतात; म्हणून “on-device” हा शब्द पूर्ण गोपनीयतेची हमी नाही.\n\nफोन निवडताना नेमका कोणता AI फीचर कोणत्या डिव्हाइसवर उपलब्ध आहे, ऑफलाइन चालतो का आणि डेटा कुठे प्रक्रिया होतो हे तपासा.\n\nतंत्रज्ञान आणि फोनविषयक माहिती: 9921894495\n\n#BRANDSTUDIO #OnDeviceAI #MobileAI #GeminiNano #Android #SmartphoneTechnology #TechExplained",
+      "visual_disclosure": "मूळ प्रक्रियात्मक संपादकीय माहितीचित्र; उत्पादनाचे छायाचित्र नाही.",
+      "buffer_status": "sent",
+      "buffer_post_id": "6aef30d651492b796edea719",
+      "buffer_post_url": "https://www.instagram.com/p/DfcXFfslPKp/",
+      "buffer_sent_at": "2026-11-07T14:08:30.103Z",
+      "buffer_mode": "shareNow"
+    },
+    {
+      "format": "carousel",
+      "topic": "How on-device AI works; offline/latency benefits; model limits; privacy caveats; buyer checklist",
+      "slides": [
+        {
+          "order": 1,
+          "filename": "2026-11-07/carousel-01.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 96638,
+          "sha256": "6a341d31a333a29400424e6f4d212f3395f8292d",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/carousel-01.jpg",
+          "alt_text": "BRANDSTUDIO माहिती-कॅरोसेल स्लाइड 1 पैकी 5: ऑन-डिव्हाइस कृत्रिम बुद्धिमत्ता, AICore, Gemini Nano, डिव्हाइसवरील प्रक्रिया, गोपनीयतेच्या मर्यादा आणि फोन निवडताना तपासायच्या गोष्टी."
+        },
+        {
+          "order": 2,
+          "filename": "2026-11-07/carousel-02.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 99135,
+          "sha256": "e5656f7ab8b79b44a71df13afc93faf8e508df13",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/carousel-02.jpg",
+          "alt_text": "BRANDSTUDIO माहिती-कॅरोसेल स्लाइड 2 पैकी 5: ऑन-डिव्हाइस कृत्रिम बुद्धिमत्ता, AICore, Gemini Nano, डिव्हाइसवरील प्रक्रिया, गोपनीयतेच्या मर्यादा आणि फोन निवडताना तपासायच्या गोष्टी."
+        },
+        {
+          "order": 3,
+          "filename": "2026-11-07/carousel-03.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 102857,
+          "sha256": "d6e0424bd0f54bdd8294032f7e2e748548fbc790",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/carousel-03.jpg",
+          "alt_text": "BRANDSTUDIO माहिती-कॅरोसेल स्लाइड 3 पैकी 5: ऑन-डिव्हाइस कृत्रिम बुद्धिमत्ता, AICore, Gemini Nano, डिव्हाइसवरील प्रक्रिया, गोपनीयतेच्या मर्यादा आणि फोन निवडताना तपासायच्या गोष्टी."
+        },
+        {
+          "order": 4,
+          "filename": "2026-11-07/carousel-04.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 96978,
+          "sha256": "bfa3c8daeab4658e711108fd38351c53a4147d0f",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/carousel-04.jpg",
+          "alt_text": "BRANDSTUDIO माहिती-कॅरोसेल स्लाइड 4 पैकी 5: ऑन-डिव्हाइस कृत्रिम बुद्धिमत्ता, AICore, Gemini Nano, डिव्हाइसवरील प्रक्रिया, गोपनीयतेच्या मर्यादा आणि फोन निवडताना तपासायच्या गोष्टी."
+        },
+        {
+          "order": 5,
+          "filename": "2026-11-07/carousel-05.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 98066,
+          "sha256": "054a13df434e8c94fad25b5a6d6830a2b93c9c30",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-07/carousel-05.jpg",
+          "alt_text": "BRANDSTUDIO माहिती-कॅरोसेल स्लाइड 5 पैकी 5: ऑन-डिव्हाइस कृत्रिम बुद्धिमत्ता, AICore, Gemini Nano, डिव्हाइसवरील प्रक्रिया, गोपनीयतेच्या मर्यादा आणि फोन निवडताना तपासायच्या गोष्टी."
+        }
+      ],
+      "caption": "फोनमधील कृत्रिम बुद्धिमत्ता म्हणजे प्रत्येक वेळी क्लाउडशी संपर्क नव्हे. Android मधील AICore आणि Gemini Nano सारख्या रचनेत काही समर्थित कामे थेट डिव्हाइसवर प्रक्रिया करू शकतात. यामुळे नेटवर्क नसताना काही सुविधा चालू राहू शकतात, प्रतिसादाचा विलंब कमी होऊ शकतो आणि स्थानिक प्रक्रियेत इनपुट डिव्हाइसवर राहू शकतो.\n\nपण मर्यादा महत्त्वाच्या आहेत: फोनची क्षमता, मॉडेलची टोकन-मर्यादा, मेमरी आणि फीचर सपोर्ट बदलतो. कठीण विनंतीसाठी अॅप क्लाउड मॉडेलकडे जाऊ शकते. अॅपमधील इतर नेटवर्क विनंत्या वेगळे डेटा प्रवाह तयार करू शकतात; म्हणून “on-device” हा शब्द पूर्ण गोपनीयतेची हमी नाही.\n\nफोन निवडताना नेमका कोणता AI फीचर कोणत्या डिव्हाइसवर उपलब्ध आहे, ऑफलाइन चालतो का आणि डेटा कुठे प्रक्रिया होतो हे तपासा.\n\nतंत्रज्ञान आणि फोनविषयक माहिती: 9921894495\n\n#BRANDSTUDIO #OnDeviceAI #MobileAI #GeminiNano #Android #SmartphoneTechnology #TechExplained",
+      "visual_disclosure": "मूळ प्रक्रियात्मक संपादकीय माहितीचित्रे; उत्पादनाचे छायाचित्र नाही.",
+      "buffer_status": "sent",
+      "buffer_post_id": "6aef30eb51492b796edeae9e",
+      "buffer_post_url": "https://www.instagram.com/p/DfcXKXpFouo/",
+      "buffer_sent_at": "2026-11-07T14:09:13.961Z",
+      "buffer_mode": "shareNow"
+    },
+    {
+      "format": "reel",
+      "topic": "On-device AI versus cloud fallback: a feature-by-feature explainer",
+      "asset_filename": null,
+      "media_status": "not_created",
+      "buffer_status": "held",
+      "reason": "DOCS Marketing Agency Reel standard not met; no final moving-footage/original-3D MP4 or human full-watch approval."
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Android Developers",
+      "title": "Gemini Nano",
+      "url": "https://developer.android.com/ai/gemini-nano"
+    },
+    {
+      "publisher": "Google Android Help",
+      "title": "AICore and Android device support",
+      "url": "https://support.google.com/android/answer/17065362"
+    },
+    {
+      "publisher": "Android Developers Blog",
+      "title": "Android on-device inference",
+      "date": "2026-07-21",
+      "url": "https://android-developers.googleblog.com/2026/07/android-on-device-inference.html"
+    },
+    {
+      "publisher": "Google ML Kit",
+      "title": "GenAI Agent for Android",
+      "url": "https://developers.google.com/ml-kit/genai/agent/android"
+    }
+  ],
+  "publishing_summary": {
+    "platform": "Instagram",
+    "account": "@brandsstudio11",
+    "feed": "sent",
+    "carousel": "sent",
+    "reel": "held",
+    "feed_post_url": "https://www.instagram.com/p/DfcXFfslPKp/",
+    "carousel_post_url": "https://www.instagram.com/p/DfcXKXpFouo/",
+    "dimensions": "1080x1350"
+  }
+}
