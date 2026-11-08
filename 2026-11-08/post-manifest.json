@@ -161,11 +161,11 @@
           "url": "https://www.aseglobal.com/press-room/310x310"
         }
       ],
-      "buffer_status": "scheduled",
+      "buffer_status": "sent",
       "buffer_post_id": "6aefe96251492b796e144ad3",
-      "buffer_due_at": "2026-11-08T03:38:00.000Z",
-      "buffer_post_url": null,
-      "buffer_mode": "automatic + addToQueue"
+      "buffer_post_url": "https://www.instagram.com/p/DfecAKWG61D/",
+      "buffer_mode": "shareNow",
+      "buffer_sent_at": "2026-11-08T09:30:03.021Z"
     },
     {
       "format": "reel",
