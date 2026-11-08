@@ -218,6 +218,7 @@
       "ai_models": "कोणतेही AI image/video/TTS model चालवलेले नाही.",
       "media": "सर्व social diagrams मूळ procedural illustrations; stock किंवा third-party media वापरलेले नाही.",
       "video_tools": "या रनच्या स्थानिक runtime मध्ये FFmpeg/ffprobe उपलब्ध; Blender, Natron आणि Kdenlive उपलब्ध नाहीत. Reel render केलेला नाही."
-    }
+    },
+    "renderer_revision": "2026-11-08.3"
   }
 }
