@@ -133,10 +133,11 @@
       "media_binary_location": "Public GitHub raw media in artclass11/BRANDSTUDIO-AI",
       "github_actions_run_id": 42441705316,
       "github_commit_sha": "7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
-      "buffer_status": "scheduled",
+      "buffer_status": "sent",
       "buffer_post_id": "6aefe96251492b796e144ad3",
-      "buffer_due_at": "2026-11-08T03:38:00.000Z",
-      "buffer_mode": "automatic + addToQueue"
+      "buffer_mode": "shareNow",
+      "buffer_post_url": "https://www.instagram.com/p/DfecAKWG61D/",
+      "buffer_sent_at": "2026-11-08T09:30:03.021Z"
     },
     {
       "date": "2026-11-08",
