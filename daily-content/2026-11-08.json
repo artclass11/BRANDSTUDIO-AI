@@ -2,14 +2,14 @@
   "brand": {
     "display": "BRANDSTUDIO",
     "account": "@brandsstudio11",
-    "footer": "BRANDSTUDIO · @brandsstudio11",
+    "footer": "BRANDSTUDIO | @brandsstudio11",
     "contact": "+91 99218 94495",
     "website": "https://brandstudio-pi.vercel.app/",
     "website_display": "brandstudio-pi.vercel.app"
   },
   "feed": {
-    "title": "रोबोटच्या बोटांना स्पर्शाची माहिती मिळाली.",
-    "subtitle": "T-REX · स्पर्श-संवेदनशील रोबोटिक्स संशोधन",
+    "title": "रोबोटच्या बोटांना स्पर्शाची जाणीव झाली.",
+    "subtitle": "T-REX / स्पर्श-संवेदनशील रोबोटिक्स संशोधन",
     "diagram": "robot_touch",
     "notes": [
       "दृश्य-भाषा मॉडेल हालचालीचा आराखडा देते; बोटांवरील स्पर्श-संकेत पकड क्षणाक्षणाला सुधारतात.",
@@ -59,7 +59,7 @@
       "visual_disclosure": "ASEच्या जाहीर तंत्रज्ञानावर आधारित मूळ संकल्पनात्मक आकृती; कार्यरत कारखान्याचे छायाचित्र नाही."
     },
     {
-      "title": "AI चिपची क्षमता तीन गोष्टींवर उभी.",
+      "title": "AI चिपची क्षमता तीन घटकांवर अवलंबून.",
       "subtitle": "गणना + मेमरी + जोडणी",
       "diagram": "takeaway",
       "notes": [
