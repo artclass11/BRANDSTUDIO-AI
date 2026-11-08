@@ -227,7 +227,7 @@ def diagram(draw, typ, y0=540):
             rounded(draw, (x, y0+70, x+95, y0+210), 12, PALE, OLIVE, 2)
             draw_text(draw, (x+47, y0+130), "HBM", 19, fill=DEEP_OLIVE, bold=True, anchor="mm")
         rounded(draw, (130, y0+285, 950, y0+385), 16, (236,239,229), OLIVE, 2)
-        for x in range(175, 920, 22):
+        for x in range(175, 840, 22):
             draw.line((x, y0+300, x+90, y0+372), fill=OLIVE, width=3)
         for y in (y0+240, y0+255):
             draw.line((300, y, 705, y), fill=DEEP_OLIVE, width=3)
@@ -315,12 +315,12 @@ def make_reel_cover_preview():
     draw_text(d, (96, 105), brand["display"], 30, fill=DEEP_OLIVE, bold=True)
     draw_text(d, (984, 112), date_label, 22, fill=MUTED, anchor="ra")
     d.line((96, 220, 984, 220), fill=LINE, width=3)
-    draw_text(d, (96, 280), "REEL CONCEPT · HOLD", 22, fill=OLIVE, bold=True)
+    draw_text(d, (96, 280), "REEL CONCEPT / HOLD", 22, fill=OLIVE, bold=True)
     draw_multiline(d, (96, 420), wrap(spec.get("title", "क्वांटम संगणकातील चुका कशा दुरुस्त होतात?"), 20), 64, fill=DEEP_OLIVE, spacing=18, bold=True)
     rounded(d, (96, 860, 984, 1380), 32, WHITE, LINE, 3)
     draw_text(d, (540, 970), "IBM  +  ORNL  +  AMD", 34, fill=DEEP_OLIVE, bold=True, anchor="mm")
-    draw_text(d, (540, 1080), "क्वांटम प्रोसेसर  ↔  सुपरकॉम्प्युटर", 28, fill=INK, anchor="mm")
-    draw_text(d, (540, 1190), "चूक शोधणे · डिकोडिंग · सुधारणा", 25, fill=MUTED, anchor="mm")
+    draw_text(d, (540, 1080), "क्वांटम प्रोसेसर आणि सुपरकॉम्प्युटर", 28, fill=INK, anchor="mm")
+    draw_text(d, (540, 1190), "चूक शोधणे, डिकोडिंग आणि सुधारणा", 25, fill=MUTED, anchor="mm")
     draw_text(d, (96, 1510), "ही फक्त संकल्पनात्मक कव्हर-पूर्वदृश्य आहे.", 23, fill=MUTED)
     draw_text(d, (96, 1580), "अंतिम MP4, हक्क-पडताळणी आणि मानवी पाहणी बाकी.", 22, fill=DEEP_OLIVE, bold=True)
     d.line((96, 1740, 984, 1740), fill=LINE, width=3)
@@ -337,8 +337,8 @@ def make_contact_sheet():
     gap, margin, header = 24, 24, 56
     sheet = Image.new("RGB", (margin*2 + tile_w*3 + gap*2, header + tile_h + margin), OFFWHITE)
     d = ImageDraw.Draw(sheet)
-    draw_text(d, (margin, 16), "BRANDSTUDIO · ३-कॉलम फीड पूर्वदृश्य", 20, fill=DEEP_OLIVE, bold=True)
-    labels = ["FEED", "CAROUSEL COVER", "REEL CONCEPT · HOLD"]
+    draw_text(d, (margin, 16), "BRANDSTUDIO / ३-कॉलम फीड पूर्वदृश्य", 20, fill=DEEP_OLIVE, bold=True)
+    labels = ["FEED", "CAROUSEL COVER", "REEL CONCEPT / HOLD"]
     for i, src in enumerate((feed, carousel, reel)):
         x = margin + i*(tile_w+gap)
         thumb = ImageOps.fit(src, (tile_w, tile_h), method=Image.Resampling.LANCZOS)
@@ -348,9 +348,9 @@ def make_contact_sheet():
     sheet.save(OUT / "preview-contact-sheet.jpg", quality=92, optimize=True)
     return OUT / "preview-contact-sheet.jpg"
 
-render(data["feed"], "feed.jpg", "जागतिक तंत्रज्ञान · रोबोटिक्स", 0, 0)
+render(data["feed"], "feed.jpg", "जागतिक तंत्रज्ञान / रोबोटिक्स", 0, 0)
 for i, post in enumerate(data["carousel"], 1):
-    render(post, "carousel-{:02d}.jpg".format(i), "सेमीकंडक्टर · माहिती-कॅरोसेल", i, len(data["carousel"]))
+    render(post, "carousel-{:02d}.jpg".format(i), "सेमीकंडक्टर / माहिती-कॅरोसेल", i, len(data["carousel"]))
 make_reel_cover_preview()
 make_contact_sheet()
 print("Generated:", *[p.name for p in sorted(OUT.glob("*.jpg"))])
