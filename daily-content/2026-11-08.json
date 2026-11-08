@@ -1,0 +1,223 @@
+{
+  "brand": {
+    "display": "BRANDSTUDIO",
+    "account": "@brandsstudio11",
+    "footer": "BRANDSTUDIO · @brandsstudio11",
+    "contact": "+91 99218 94495",
+    "website": "https://brandstudio-pi.vercel.app/",
+    "website_display": "brandstudio-pi.vercel.app"
+  },
+  "feed": {
+    "title": "रोबोटच्या बोटांना स्पर्शाची माहिती मिळाली.",
+    "subtitle": "T-REX · स्पर्श-संवेदनशील रोबोटिक्स संशोधन",
+    "diagram": "robot_touch",
+    "notes": [
+      "दृश्य-भाषा मॉडेल हालचालीचा आराखडा देते; बोटांवरील स्पर्श-संकेत पकड क्षणाक्षणाला सुधारतात.",
+      "१२ प्रत्यक्ष कामांत सरासरी यश ६५%; तुलना पद्धतीत ३५% — हा संशोधनातील निकाल आहे."
+    ],
+    "visual_disclosure": "मूळ प्रक्रियात्मक संकल्पनात्मक माहितीचित्र; प्रत्यक्ष रोबोटचे छायाचित्र किंवा उत्पादन-दृश्य नाही."
+  },
+  "carousel": [
+    {
+      "title": "AI चिपमध्ये GPU आणि HBM जवळ का जोडतात?",
+      "subtitle": "ADVANCED PACKAGING / मूलभूत कल्पना",
+      "diagram": "package_stack",
+      "notes": [
+        "TSMC CoWoS अनेक SoC आणि HBM स्टॅक एकाच पॅकेजमध्ये जोडते.",
+        "हे प्रोसेसरचे कोअर नव्हे; चिप्स जोडण्याचे पॅकेजिंग तंत्र आहे."
+      ],
+      "visual_disclosure": "मूळ प्रक्रियात्मक संकल्पनात्मक माहितीचित्र; अचूक उत्पादन-फोटो नाही."
+    },
+    {
+      "title": "इंटरपोजर म्हणजे जोडणीचा पूल.",
+      "subtitle": "2.5D PACKAGING / DATA PATH",
+      "diagram": "interposer",
+      "notes": [
+        "सिलिकॉन इंटरपोजरवर दाट सूक्ष्म जोडणी-मार्ग तयार होतात.",
+        "GPU आणि HBM मधील डेटा जवळच्या मार्गाने जाऊ शकतो."
+      ],
+      "visual_disclosure": "मूळ तांत्रिक आकृती; प्रमाणानुसार मोजलेले उत्पादन-रेखाचित्र नाही."
+    },
+    {
+      "title": "AI चिप पुरवठ्यात पॅकेजिंगही अडथळा.",
+      "subtitle": "SUPPLY CHAIN / 06 NOV 2026",
+      "diagram": "bottleneck",
+      "notes": [
+        "Reutersच्या ६ नोव्हेंबर २०२६च्या अहवालात advanced packaging क्षमतेवरील ताण नोंदवला.",
+        "चिप पुरवठा केवळ वेफर उत्पादनावर अवलंबून राहत नाही."
+      ],
+      "visual_disclosure": "पुरवठा-साखळीचे मूळ संकल्पनात्मक माहितीचित्र."
+    },
+    {
+      "title": "पुढचा पर्याय: पॅनेल-स्तरीय पॅकेजिंग.",
+      "subtitle": "ASE PANEL-LEVEL / FUTURE CAPACITY",
+      "diagram": "panel_line",
+      "notes": [
+        "ASEने ३१० × ३१० मिमी पॅनेल-स्तरीय उत्पादन-लाइन जाहीर केली.",
+        "उत्पादन २०२७च्या पहिल्या सहामाहीत अपेक्षित; ही अजून भविष्यातील क्षमता आहे."
+      ],
+      "visual_disclosure": "ASEच्या जाहीर तंत्रज्ञानावर आधारित मूळ संकल्पनात्मक आकृती; कार्यरत कारखान्याचे छायाचित्र नाही."
+    },
+    {
+      "title": "AI चिपची क्षमता तीन गोष्टींवर उभी.",
+      "subtitle": "गणना + मेमरी + जोडणी",
+      "diagram": "takeaway",
+      "notes": [
+        "GPU/SoC, HBM मेमरी आणि त्यांना जोडणारे पॅकेजिंग—तिन्ही महत्त्वाचे.",
+        "फक्त प्रोसेसरचा मॉडेल नंबर पाहून पुरवठा किंवा क्षमता समजत नाही."
+      ],
+      "visual_disclosure": "मूळ संकल्पनात्मक माहितीचित्र; पाचव्या स्लाइडवर संपर्क आणि वेबसाइट CTA."
+    }
+  ],
+  "reel_preview": {
+    "title": "क्वांटम संगणकातील चुका कशा दुरुस्त होतात?"
+  },
+  "editorial": {
+    "local_date": "2026-11-08",
+    "timezone": "Asia/Kolkata",
+    "strategy_note": "तीन स्वतंत्र जागतिक तंत्रज्ञान विषय: रोबोटिक्समधील स्पर्श-प्रतिक्रिया, AI चिप्सचे advanced packaging, आणि क्वांटम error correction साठी HPC सहकार्य. मागील उपलब्ध पोस्टमधील on-device AI, Starlink/5G, युरोपियन chip-design platform आणि NPCI विषय पुन्हा वापरलेले नाहीत. आजच्या स्मार्टफोन मार्गदर्शकापेक्षा तिन्ही सामाजिक विषय वेगळे आहेत.",
+    "captions": {
+      "feed": "रोबोटला वस्तू दिसणे पुरेसे नसते; ती घसरतेय का आणि किती दाब द्यायचा, हेही कळायला हवे.\n\nPanasonic आणि संशोधन भागीदारांनी विकसित केलेल्या T-Rex प्रणालीत दृश्य-भाषा मॉडेल हालचालीचा आराखडा देते, तर बोटांवरील स्पर्श-संकेत पकड क्षणाक्षणाला सुधारतात. Panasonicच्या ५ नोव्हेंबर २०२६च्या निवेदनानुसार १२ स्पर्श-संवेदनशील प्रत्यक्ष कामांत सरासरी यश ६५% होते; तुलना पद्धतीत ३५%. हा प्रयोगातील निकाल आहे—सर्वसाधारण वापरासाठी उपलब्ध उत्पादन नाही.\n\nहे मूळ संकल्पनात्मक माहितीचित्र आहे; प्रत्यक्ष रोबोटचे छायाचित्र नाही.\n\nअधिक तंत्रज्ञानविषयक माहिती: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n\n#BRANDSTUDIO #Robotics #TactileSensing #RobotLearning #MarathiTech",
+      "carousel": "AI चिपमध्ये फक्त GPU वेगवान असणे पुरेसे नसते. GPU आणि HBM मेमरी यांना एकाच पॅकेजमध्ये जवळ जोडण्यासाठी advanced packaging वापरले जाते. TSMCचे CoWoS अनेक SoC आणि HBM स्टॅक एकत्र आणते. ६ नोव्हेंबरच्या Reuters अहवालानुसार AI हार्डवेअरची वाढती मागणी पॅकेजिंग क्षमतेवर ताण आणत आहे. म्हणून चिपचा पुरवठा फक्त wafer outputवर नाही, तर packaging line आणि तिच्या उत्पादनक्षमतेवरही अवलंबून असतो. ASEने panel-level packaging line जाहीर केली असून उत्पादन २०२७च्या पहिल्या सहामाहीत अपेक्षित आहे—म्हणजे ही क्षमता अजून विस्ताराच्या टप्प्यात आहे.\n\nही मूळ माहितीचित्रे आहेत; प्रत्यक्ष उत्पादन-छायाचित्रे नाहीत.\n\nअधिक माहिती: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n\n#BRANDSTUDIO #Semiconductors #AdvancedPackaging #AIHardware #MarathiTech",
+      "reel": "क्वांटम संगणक अधिक विश्वासार्ह बनवण्याची एक महत्त्वाची अडचण म्हणजे चुका शोधणे आणि दुरुस्त करणे. ५ नोव्हेंबर २०२६ रोजी IBM, Oak Ridge National Laboratory आणि AMD यांनी यासाठी संयुक्त संशोधन-प्लॅटफॉर्म जाहीर केला. हे तंत्रज्ञान अद्याप संशोधनाच्या टप्प्यात आहे; fault-tolerant क्वांटम संगणक तयार झालेला नाही.\n\nअधिक माहिती: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n\n#BRANDSTUDIO #QuantumComputing #ErrorCorrection #HPC #MarathiTech"
+    },
+    "alt_text": {
+      "feed": "ऑफ-व्हाइट आणि ऑलिव्ह रंगातील मूळ माहितीचित्र. कॅमेरा, कृतीचा आराखडा आणि स्पर्श सेन्सर असलेली रोबोटची दोन बोटे दाखवली आहेत. T-Rex संशोधनातील १२ कामांसाठी ६५ टक्के सरासरी यश आणि तुलना पद्धतीतील ३५ टक्के आकडा दिला आहे.",
+      "carousel": [
+        "स्लाइड १/५: GPU किंवा SoC आणि HBM मेमरी स्टॅक एकाच पॅकेजमध्ये जोडल्याचे संकल्पनात्मक चित्र; advanced packaging ची मूलभूत कल्पना.",
+        "स्लाइड २/५: SoC आणि HBM यांच्यातील दाट सूक्ष्म जोडणी-मार्ग दाखवणारा सिलिकॉन इंटरपोजरचा संकल्पनात्मक कट-अवे आकृती.",
+        "स्लाइड ३/५: वेफर, advanced packaging, चाचणी आणि सिस्टम वापर या पुरवठा-साखळी टप्प्यांमध्ये पॅकेजिंग क्षमतेचा ताण ठळक केलेला आहे.",
+        "स्लाइड ४/५: ASEच्या panel-level packaging कल्पनेचे संकल्पनात्मक चित्र; ३१० बाय ३१० मिमी पॅनेल आणि २०२७च्या पहिल्या सहामाहीतील अपेक्षित उत्पादनाचा उल्लेख.",
+        "स्लाइड ५/५: GPU/SoC गणना, HBM मेमरी आणि interposer जोडणी या तीन घटकांचा सारांश; BRANDSTUDIO वेबसाइट आणि WhatsApp संपर्क."
+      ],
+      "reel": "क्वांटम error correction विषयासाठी फक्त संकल्पनात्मक कव्हर-पूर्वदृश्य; अंतिम Reel तयार किंवा मंजूर नाही."
+    },
+    "reel_script": {
+      "language": "Marathi",
+      "target_duration_seconds": 25,
+      "narration": "क्वांटम संगणकात चूक झाली तर ती कोण शोधणार? क्युबिट्स बाह्य आवाजामुळे चुका करू शकतात. ५ नोव्हेंबरला IBM, Oak Ridge National Laboratory आणि AMD यांनी क्वांटम error correction साठी सह-डिझाइन प्लॅटफॉर्म सुरू केला. IBMचा क्वांटम प्रोसेसर आणि AMD CPU-GPU असलेली सुपरकॉम्प्युटिंग क्षमता एकत्र ठेवून error-decoding पद्धती तपासल्या जातील. ही संशोधनाची पायरी आहे—पूर्ण fault-tolerant क्वांटम संगणक तयार झाल्याची घोषणा नाही.",
+      "storyboard": [
+        {
+          "time": "00:00-00:02",
+          "shot": "क्युबिट संकेत अस्थिर होताना दिसणारा मूळ 3D macro action; स्पष्ट दृश्य-हुक.",
+          "status": "not produced"
+        },
+        {
+          "time": "00:02-00:06",
+          "shot": "क्वांटम प्रोसेसर आणि noise/error संकेत यांचे वास्तवाशी सुसंगत 3D दृश्य.",
+          "status": "not produced"
+        },
+        {
+          "time": "00:06-00:11",
+          "shot": "IBM quantum processor आणि Oak Ridge HPC यांची भौगोलिक/तांत्रिक जोडणी दाखवणारा स्वतंत्र moving setup.",
+          "status": "not produced"
+        },
+        {
+          "time": "00:11-00:17",
+          "shot": "classical decoder error syndrome ओळखतो अशी स्पष्ट 3D/diagram action.",
+          "status": "not produced"
+        },
+        {
+          "time": "00:17-00:22",
+          "shot": "quantum-classical feedback loop पुन्हा processorकडे जाताना दाखवणारा वेगळा action setup.",
+          "status": "not produced"
+        },
+        {
+          "time": "00:22-00:25",
+          "shot": "संशोधन-टप्प्याची स्पष्ट नोंद आणि BRANDSTUDIO संपर्क/वेबसाइट CTA.",
+          "status": "not produced"
+        }
+      ],
+      "hold_reason": "स्थानिक Blender/Natron/Kdenlive उपलब्ध नाहीत; ५ वेगवेगळे moving setups, ८ हक्क-पडताळलेले दृश्य-स्रोत, ६०% moving footage/original 3D action, मानवी narration आणि पूर्ण मानवी watch/listen approval उपलब्ध नाही. त्यामुळे MP4 render/publish केलेला नाही."
+    },
+    "sources": [
+      {
+        "id": "F1",
+        "publisher": "Panasonic Newsroom Global",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "geography": "जागतिक संशोधन सहकार्य; CoRL 2026, Austin",
+        "url": "https://news.panasonic.com/global/press/en261105-2",
+        "supports": "T-Rex प्रणाली, १२ स्पर्श-संवेदनशील कामे, ६५% सरासरी यश विरुद्ध ३५% baseline, स्पर्श-आधारित त्वरित सुधारणा."
+      },
+      {
+        "id": "F2",
+        "publisher": "arXiv / संशोधन पेपर",
+        "published": "2026-06-15",
+        "checked": "2026-11-08",
+        "geography": "संशोधन",
+        "url": "https://arxiv.org/abs/2606.17055",
+        "supports": "T-Rexची tactile-reactive रचना, variable-rate control आणि १२ manipulation tasks वरील मूल्यांकन."
+      },
+      {
+        "id": "C1",
+        "publisher": "TSMC 3DFabric",
+        "published": "अद्ययावत अधिकृत तंत्रज्ञान पृष्ठ",
+        "checked": "2026-11-08",
+        "geography": "जागतिक semiconductor supply chain",
+        "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+        "supports": "CoWoS अनेक SoC आणि HBM स्टॅक 2.5D पॅकेजमध्ये एकत्र करते."
+      },
+      {
+        "id": "C2",
+        "publisher": "Reuters",
+        "published": "2026-11-06",
+        "checked": "2026-11-08",
+        "geography": "जागतिक semiconductor उद्योग; आशिया-पॅसिफिक उत्पादन-साखळी",
+        "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/",
+        "supports": "AI मागणीमुळे advanced packaging क्षमता ताणली जात आहे; पुरवठादार आणि गुंतवणूक वाढवण्याचे प्रयत्न."
+      },
+      {
+        "id": "C3",
+        "publisher": "ASE",
+        "published": "अधिकृत तंत्रज्ञान पृष्ठ",
+        "checked": "2026-11-08",
+        "geography": "जागतिक semiconductor उद्योग",
+        "url": "https://ase.aseglobal.com/VIPack/",
+        "supports": "2.5D/3D, HBM आणि उच्च-बँडविड्थ जोडणीसाठी ASE VIPack तंत्रज्ञान."
+      },
+      {
+        "id": "C4",
+        "publisher": "ASE",
+        "published": "2026-05-26",
+        "checked": "2026-11-08",
+        "geography": "उत्पादन-योजना; 2027 अपेक्षित",
+        "url": "https://www.aseglobal.com/press-room/310x310/",
+        "supports": "310×310 mm panel-level packaging line; उत्पादन 2027च्या पहिल्या सहामाहीत अपेक्षित."
+      },
+      {
+        "id": "R1",
+        "publisher": "IBM Newsroom",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "geography": "Poughkeepsie, New York; Oak Ridge HPC सहकार्य",
+        "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction",
+        "supports": "IBM, ORNL आणि AMD quantum error correction co-design platform; quantum processor आणि AMD-powered HPC integration."
+      },
+      {
+        "id": "R2",
+        "publisher": "IBM Quantum Blog",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "geography": "संशोधन पायाभूत सुविधा",
+        "url": "https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform",
+        "supports": "decoder, quantum-classical low-latency integration आणि platformचे संशोधन उद्दिष्ट."
+      },
+      {
+        "id": "R3",
+        "publisher": "Reuters",
+        "published": "2026-11-05",
+        "checked": "2026-11-08",
+        "geography": "अमेरिका; जागतिक quantum computing संशोधन",
+        "url": "https://www.reuters.com/technology/ibm-amd-oak-ridge-national-laboratory-launch-quantum-error-correction-platform-2026-11-05/",
+        "supports": "सहकार्य आणि quantum error correctionची गरज यावरील स्वतंत्र पुष्टी."
+      }
+    ],
+    "tool_truth": {
+      "renderer": "GitHub Actions ubuntu-latest; Python 3; Pillow; Noto Sans Devanagari and Noto Sans fonts.",
+      "ai_models": "कोणतेही AI image/video/TTS model चालवलेले नाही.",
+      "media": "सर्व social diagrams मूळ procedural illustrations; stock किंवा third-party media वापरलेले नाही.",
+      "video_tools": "या रनच्या स्थानिक runtime मध्ये FFmpeg/ffprobe उपलब्ध; Blender, Natron आणि Kdenlive उपलब्ध नाहीत. Reel render केलेला नाही."
+    }
+  }
+}
