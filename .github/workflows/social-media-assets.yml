@@ -23,7 +23,8 @@ jobs:
           python -m pip install Pillow
       - name: Render approved daily assets and private previews
         run: python .github/scripts/generate_social_assets.py
-      - name: Commit only final Instagram JPG binaries
+      - id: media_commit
+        name: Commit only final Instagram JPG binaries
         env:
           DATE: ${{ steps.date.outputs.date }}
         run: |
@@ -36,19 +37,25 @@ jobs:
             git commit -m "Build approved Instagram media for $DATE"
             git push
           fi
-      - name: Verify anonymous public raw media delivery
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Verify anonymous public raw media delivery and exact bytes
         env:
           DATE: ${{ steps.date.outputs.date }}
+          COMMIT_SHA: ${{ steps.media_commit.outputs.sha }}
         run: |
-          python - "$DATE" <<'PY'
-          import io, sys, time, urllib.request
+          python - "$DATE" "$COMMIT_SHA" <<'PY'
+          import hashlib, io, sys, urllib.request
+          from pathlib import Path
           from PIL import Image
-          date = sys.argv[1]
+          date, commit_sha = sys.argv[1], sys.argv[2]
           repo = "artclass11/BRANDSTUDIO-AI"
           names = ["feed.jpg"] + [f"carousel-{i:02d}.jpg" for i in range(1, 6)]
           for name in names:
-              url = f"https://raw.githubusercontent.com/{repo}/main/{date}/{name}"
-              request = urllib.request.Request(url, headers={"User-Agent":"BRANDSTUDIO-media-QA/1.0"})
+              local_path = Path(date) / name
+              local_bytes = local_path.read_bytes()
+              local_sha = hashlib.sha256(local_bytes).hexdigest()
+              url = f"https://raw.githubusercontent.com/{repo}/main/{date}/{name}?v={commit_sha}"
+              request = urllib.request.Request(url, headers={"User-Agent":"BRANDSTUDIO-media-QA/1.0","Cache-Control":"no-cache"})
               with urllib.request.urlopen(request, timeout=30) as response:
                   body = response.read()
                   mime = response.headers.get("Content-Type", "").split(";")[0].lower()
@@ -58,10 +65,13 @@ jobs:
                       raise SystemExit(f"FAIL {name}: MIME {mime}")
                   if body[:3] != b"\xff\xd8\xff":
                       raise SystemExit(f"FAIL {name}: JPEG magic mismatch")
+                  remote_sha = hashlib.sha256(body).hexdigest()
+                  if remote_sha != local_sha:
+                      raise SystemExit(f"FAIL {name}: raw CDN bytes differ from committed file; local={local_sha} remote={remote_sha}")
                   with Image.open(io.BytesIO(body)) as image:
                       if image.size != (1080, 1350):
                           raise SystemExit(f"FAIL {name}: dimensions {image.size}")
-              print(f"PASS {name}: HTTP 200, image/jpeg, {len(body)} bytes, 1080x1350")
+              print(f"PASS {name}: HTTP 200, image/jpeg, exact SHA-256 {local_sha}, 1080x1350")
           PY
       - name: Upload private visual-preview artifact
         uses: actions/upload-artifact@v4
