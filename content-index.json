@@ -77,6 +77,75 @@
       "asset_filename": null,
       "buffer_status": "held",
       "reason": "DOCS Marketing Agency Reel standard not met; no final MP4 or human full-watch approval."
+    },
+    {
+      "date": "2026-11-08",
+      "format": "feed",
+      "topic": "Panasonic T-Rex tactile-reactive dexterous robot manipulation",
+      "manifest": "2026-11-08/post-manifest.json",
+      "asset_filename": "2026-11-08/feed.jpg",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 109585,
+      "sha256": "fb5dcd5d75339d148f3a2dc3fb9fa32f883769b52ccd8fd0b59e954c4fe84bcf",
+      "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/feed.jpg",
+      "media_binary_location": "Public GitHub raw media in artclass11/BRANDSTUDIO-AI",
+      "github_actions_run_id": 42441705316,
+      "github_commit_sha": "7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+      "buffer_status": "sent",
+      "buffer_post_id": "6aefe93951492b796e143bbe",
+      "buffer_post_url": "https://www.instagram.com/p/Dfdx6TRDIPc/",
+      "buffer_sent_at": "2026-11-08T03:22:08.968Z",
+      "buffer_mode": "automatic + addToQueue"
+    },
+    {
+      "date": "2026-11-08",
+      "format": "carousel",
+      "topic": "Advanced semiconductor packaging: CoWoS, silicon interposer, supply bottleneck and ASE panel-level roadmap",
+      "manifest": "2026-11-08/post-manifest.json",
+      "asset_filenames": [
+        "2026-11-08/carousel-01.jpg",
+        "2026-11-08/carousel-02.jpg",
+        "2026-11-08/carousel-03.jpg",
+        "2026-11-08/carousel-04.jpg",
+        "2026-11-08/carousel-05.jpg"
+      ],
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "public_media_urls": [
+        "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-01.jpg",
+        "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-02.jpg",
+        "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-03.jpg",
+        "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-04.jpg",
+        "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-05.jpg"
+      ],
+      "slide_sha256": [
+        "65128bcb17a9bfef0ada4eca87e83a10534228672f0430bf521c22ac33cd8b1a",
+        "6d72b56d37a6ad31578f680fd6d2c16c744456513fb8064e2c977f3b125abde5",
+        "1d683990951ace992f681eb409fe25be64e63ff9b4ce8ecbc84ae1dd8501a3f1",
+        "23c23a0189f31784c6fc118e0240b4ea6a78d3c4de8e1ef028cb7395b39b7751",
+        "f325e5e9c224ca59129959d1cdaa59044c74806dc16169fa8645da93a8ce3f44"
+      ],
+      "media_binary_location": "Public GitHub raw media in artclass11/BRANDSTUDIO-AI",
+      "github_actions_run_id": 42441705316,
+      "github_commit_sha": "7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+      "buffer_status": "scheduled",
+      "buffer_post_id": "6aefe96251492b796e144ad3",
+      "buffer_due_at": "2026-11-08T03:38:00.000Z",
+      "buffer_mode": "automatic + addToQueue"
+    },
+    {
+      "date": "2026-11-08",
+      "format": "reel",
+      "topic": "IBM + ORNL + AMD quantum error-correction co-design platform",
+      "manifest": "2026-11-08/post-manifest.json",
+      "asset_filename": null,
+      "buffer_status": "held",
+      "reason": "DOCS Marketing Agency Reel standard not met; no final MP4, rights-cleared moving footage/original 3D coverage, qualified narration, cleared music/SFX and human full-watch approval."
     }
   ]
 }
