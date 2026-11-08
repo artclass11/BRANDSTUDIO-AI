@@ -6,27 +6,71 @@ on:
       - 'daily-content/**'
 permissions:
   contents: write
+  actions: read
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - id: date
+        name: Resolve India local content date
+        run: echo "date=$(TZ=Asia/Kolkata date +%F)" >> "$GITHUB_OUTPUT"
       - name: Install free image tooling and fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-noto-core fonts-dejavu-core
           python -m pip install --upgrade pip
           python -m pip install Pillow
-      - name: Render approved daily assets
+      - name: Render approved daily assets and private previews
         run: python .github/scripts/generate_social_assets.py
-      - name: Commit public media binaries
+      - name: Commit only final Instagram JPG binaries
+        env:
+          DATE: ${{ steps.date.outputs.date }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add "$DATE/feed.jpg" "$DATE"/carousel-*.jpg
           if git diff --cached --quiet; then
-            echo "No asset changes."
+            echo "No final media changes."
           else
-            git commit -m "Build approved Instagram media for 2026-11-07"
+            git commit -m "Build approved Instagram media for $DATE"
             git push
           fi
+      - name: Verify anonymous public raw media delivery
+        env:
+          DATE: ${{ steps.date.outputs.date }}
+        run: |
+          python - "$DATE" <<'PY'
+          import io, sys, time, urllib.request
+          from PIL import Image
+          date = sys.argv[1]
+          repo = "artclass11/BRANDSTUDIO-AI"
+          names = ["feed.jpg"] + [f"carousel-{i:02d}.jpg" for i in range(1, 6)]
+          for name in names:
+              url = f"https://raw.githubusercontent.com/{repo}/main/{date}/{name}"
+              request = urllib.request.Request(url, headers={"User-Agent":"BRANDSTUDIO-media-QA/1.0"})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  body = response.read()
+                  mime = response.headers.get("Content-Type", "").split(";")[0].lower()
+                  if response.status != 200 or not body:
+                      raise SystemExit(f"FAIL {name}: HTTP {response.status}, bytes={len(body)}")
+                  if mime != "image/jpeg":
+                      raise SystemExit(f"FAIL {name}: MIME {mime}")
+                  if body[:3] != b"\xff\xd8\xff":
+                      raise SystemExit(f"FAIL {name}: JPEG magic mismatch")
+                  with Image.open(io.BytesIO(body)) as image:
+                      if image.size != (1080, 1350):
+                          raise SystemExit(f"FAIL {name}: dimensions {image.size}")
+              print(f"PASS {name}: HTTP 200, image/jpeg, {len(body)} bytes, 1080x1350")
+          PY
+      - name: Upload private visual-preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: brandstudio-preview-${{ steps.date.outputs.date }}
+          path: |
+            ${{ steps.date.outputs.date }}/preview-contact-sheet.jpg
+            ${{ steps.date.outputs.date }}/reel-cover-preview.jpg
+            ${{ steps.date.outputs.date }}/feed.jpg
+            ${{ steps.date.outputs.date }}/carousel-*.jpg
+          if-no-files-found: error
+          retention-days: 7
