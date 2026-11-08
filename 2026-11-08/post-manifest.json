@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Kolkata",
+  "brand": "BRANDSTUDIO",
+  "instagram_account": "@brandsstudio11",
+  "platform": "Instagram",
+  "repository": "artclass11/BRANDSTUDIO-AI",
+  "branch": "main",
+  "language": "Marathi-first",
+  "visual_identity": {
+    "palette": [
+      "#3F4A32",
+      "#7F8F62",
+      "#FFFFFF",
+      "#F8FAF6"
+    ],
+    "font": "Noto Sans Devanagari + Noto Sans Latin",
+    "disclosure": "Original procedural editorial diagrams; not photographs or real product footage."
+  },
+  "build": {
+    "workflow_run_id": 42441705316,
+    "workflow_path": ".github/workflows/social-media-assets.yml",
+    "result": "success",
+    "commit_sha": "7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+    "input_path": "daily-content/2026-11-08.json",
+    "input_sha": "e4463ce52182dd93f2c54aee35e1c3008ed48a43",
+    "renderer_path": ".github/scripts/generate_social_assets.py",
+    "renderer_sha": "4365911412fff9dc96c9f403a2ef8fc206529a45",
+    "renderer": "Python/Pillow; original diagrams; Noto fonts; no AI image model executed."
+  },
+  "formats": [
+    {
+      "format": "feed",
+      "topic": "Panasonic T-Rex tactile-reactive dexterous robot manipulation",
+      "asset_filename": "2026-11-08/feed.jpg",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "bytes": 109585,
+      "sha256": "fb5dcd5d75339d148f3a2dc3fb9fa32f883769b52ccd8fd0b59e954c4fe84bcf",
+      "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/feed.jpg",
+      "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/feed.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+      "alt_text": "ऑफ-व्हाइट आणि ऑलिव्ह रंगातील मूळ माहितीचित्र. कॅमेरा, कृतीचा आराखडा आणि स्पर्श सेन्सर असलेली रोबोटची दोन बोटे दाखवली आहेत. T-Rex संशोधनातील १२ कामांसाठी ६५ टक्के सरासरी यश आणि तुलना पद्धतीतील ३५ टक्के आकडा दिला आहे.",
+      "caption": "रोबोटला वस्तू दिसणे पुरेसे नसते; ती घसरतेय का आणि किती दाब द्यायचा, हेही कळायला हवे.\n\nPanasonic आणि संशोधन भागीदारांनी विकसित केलेल्या T-Rex प्रणालीत दृश्य-भाषा मॉडेल हालचालीचा आराखडा देते, तर बोटांवरील स्पर्श-संकेत पकड क्षणाक्षणाला सुधारतात. Panasonicच्या ५ नोव्हेंबर २०२६च्या निवेदनानुसार १२ स्पर्श-संवेदनशील प्रत्यक्ष कामांत सरासरी यश ६५% होते; तुलना पद्धतीत ३५%. हा प्रयोगातील निकाल आहे—सर्वसाधारण वापरासाठी उपलब्ध उत्पादन नाही.\n\nहे मूळ संकल्पनात्मक माहितीचित्र आहे; प्रत्यक्ष रोबोटचे छायाचित्र नाही.\n\nअधिक तंत्रज्ञानविषयक माहिती: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n\n#BRANDSTUDIO #Robotics #TactileSensing #RobotLearning #MarathiTech",
+      "sources": [
+        {
+          "publisher": "Panasonic Newsroom Global",
+          "published": "2026-11-05",
+          "checked": "2026-11-08",
+          "url": "https://news.panasonic.com/global/press/en261105-2"
+        },
+        {
+          "publisher": "arXiv",
+          "published": "2026-06-15",
+          "checked": "2026-11-08",
+          "url": "https://arxiv.org/abs/2606.17055"
+        }
+      ],
+      "visual_disclosure": "मूळ प्रक्रियात्मक संपादकीय माहितीचित्र; प्रत्यक्ष रोबोटचे छायाचित्र नाही.",
+      "buffer_status": "sent",
+      "buffer_post_id": "6aefe93951492b796e143bbe",
+      "buffer_post_url": "https://www.instagram.com/p/Dfdx6TRDIPc/",
+      "buffer_sent_at": "2026-11-08T03:22:08.968Z",
+      "buffer_mode": "automatic + addToQueue"
+    },
+    {
+      "format": "carousel",
+      "topic": "Advanced semiconductor packaging: CoWoS, silicon interposer, supply bottleneck and ASE panel-level roadmap",
+      "slides": [
+        {
+          "order": 1,
+          "filename": "2026-11-08/carousel-01.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 112180,
+          "git_blob_sha": "d5b24e5c934428892ef6a13185187010365b3990",
+          "sha256": "65128bcb17a9bfef0ada4eca87e83a10534228672f0430bf521c22ac33cd8b1a",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-01.jpg",
+          "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-01.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+          "alt_text": "स्लाइड १/५: GPU किंवा SoC आणि HBM मेमरी स्टॅक एकाच पॅकेजमध्ये जोडल्याचे संकल्पनात्मक चित्र; advanced packaging ची मूलभूत कल्पना."
+        },
+        {
+          "order": 2,
+          "filename": "2026-11-08/carousel-02.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 121044,
+          "git_blob_sha": "9bae47eb994d3621f1f272d52ac427b865b6f35a",
+          "sha256": "6d72b56d37a6ad31578f680fd6d2c16c744456513fb8064e2c977f3b125abde5",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-02.jpg",
+          "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-02.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+          "alt_text": "स्लाइड २/५: SoC आणि HBM यांच्यातील दाट सूक्ष्म जोडणी-मार्ग दाखवणारा सिलिकॉन इंटरपोजरचा संकल्पनात्मक कट-अवे आकृती."
+        },
+        {
+          "order": 3,
+          "filename": "2026-11-08/carousel-03.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 104655,
+          "git_blob_sha": "471e096ad65020f4987fafc3d1c5ba6eb650e79e",
+          "sha256": "1d683990951ace992f681eb409fe25be64e63ff9b4ce8ecbc84ae1dd8501a3f1",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-03.jpg",
+          "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-03.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+          "alt_text": "स्लाइड ३/५: वेफर, advanced packaging, चाचणी आणि सिस्टम वापर या पुरवठा-साखळी टप्प्यांमध्ये पॅकेजिंग क्षमतेचा ताण ठळक केलेला आहे."
+        },
+        {
+          "order": 4,
+          "filename": "2026-11-08/carousel-04.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 106712,
+          "git_blob_sha": "bc3deff6b87b26929b1ef7ca41272459ee1ce6dd",
+          "sha256": "23c23a0189f31784c6fc118e0240b4ea6a78d3c4de8e1ef028cb7395b39b7751",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-04.jpg",
+          "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-04.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+          "alt_text": "स्लाइड ४/५: ASEच्या panel-level packaging कल्पनेचे संकल्पनात्मक चित्र; ३१० बाय ३१० मिमी पॅनेल आणि २०२७च्या पहिल्या सहामाहीतील अपेक्षित उत्पादनाचा उल्लेख."
+        },
+        {
+          "order": 5,
+          "filename": "2026-11-08/carousel-05.jpg",
+          "dimensions": [
+            1080,
+            1350
+          ],
+          "bytes": 97319,
+          "git_blob_sha": "ae1e5168d889b7a20d566a0c081f97f17ab50b19",
+          "sha256": "f325e5e9c224ca59129959d1cdaa59044c74806dc16169fa8645da93a8ce3f44",
+          "public_media_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-05.jpg",
+          "buffer_asset_url": "https://raw.githubusercontent.com/artclass11/BRANDSTUDIO-AI/main/2026-11-08/carousel-05.jpg?v=7c2914e411f2ad83cfb6effb9a0b79d086e3dfdb",
+          "alt_text": "स्लाइड ५/५: GPU/SoC गणना, HBM मेमरी आणि interposer जोडणी या तीन घटकांचा सारांश; BRANDSTUDIO वेबसाइट आणि WhatsApp संपर्क."
+        }
+      ],
+      "caption": "AI चिपमध्ये फक्त GPU वेगवान असणे पुरेसे नसते. GPU आणि HBM मेमरी यांना एकाच पॅकेजमध्ये जवळ जोडण्यासाठी advanced packaging वापरले जाते. TSMCचे CoWoS अनेक SoC आणि HBM स्टॅक एकत्र आणते. ६ नोव्हेंबरच्या Reuters अहवालानुसार AI हार्डवेअरची वाढती मागणी प्रगत पॅकेजिंग क्षमतेवर ताण आणत आहे. त्यामुळे चिपचा पुरवठा फक्त वेफर उत्पादनावर नाही, तर पॅकेजिंग लाइन आणि तिच्या उत्पादनक्षमतेवरही अवलंबून असतो. ASEने panel-level packaging line जाहीर केली असून उत्पादन २०२७च्या पहिल्या सहामाहीत अपेक्षित आहे—म्हणजे ही क्षमता अजून विस्ताराच्या टप्प्यात आहे.\n\nही मूळ माहितीचित्रे आहेत; प्रत्यक्ष उत्पादन-छायाचित्रे नाहीत.\n\nअधिक माहिती: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n\n#BRANDSTUDIO #Semiconductors #AdvancedPackaging #AIHardware #MarathiTech",
+      "visual_disclosure": "मूळ प्रक्रियात्मक संकल्पनात्मक माहितीचित्रे; प्रत्यक्ष उत्पादन-छायाचित्रे नाहीत.",
+      "sources": [
+        {
+          "publisher": "TSMC 3DFabric",
+          "published": "undated official technology page",
+          "checked": "2026-11-08",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        },
+        {
+          "publisher": "Reuters",
+          "published": "2026-11-06",
+          "checked": "2026-11-08",
+          "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+        },
+        {
+          "publisher": "ASE Holdings",
+          "published": "2026-05-26",
+          "checked": "2026-11-08",
+          "url": "https://www.aseglobal.com/press-room/310x310"
+        }
+      ],
+      "buffer_status": "scheduled",
+      "buffer_post_id": "6aefe96251492b796e144ad3",
+      "buffer_due_at": "2026-11-08T03:38:00.000Z",
+      "buffer_post_url": null,
+      "buffer_mode": "automatic + addToQueue"
+    },
+    {
+      "format": "reel",
+      "topic": "IBM + ORNL + AMD quantum error-correction co-design platform",
+      "asset_filename": null,
+      "media_status": "not_created",
+      "buffer_status": "held",
+      "reason": "DOCS Marketing Agency Reel release gate not met: no final MP4, no 5 moving setups/8 assets, no 60% moving-coverage evidence, no full rights manifest, no human-recorded Marathi narration, no cleared audio cue sheet and no human full-watch/listen approval.",
+      "ready_to_record_script": "reel/ready-to-record-script.md",
+      "storyboard": "reel/storyboard.json",
+      "sources": [
+        {
+          "publisher": "IBM Newsroom",
+          "published": "2026-11-05",
+          "checked": "2026-11-08",
+          "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab-ibm-and-amd-launch-new-co-design-platform-for-quantum-error-correction"
+        },
+        {
+          "publisher": "Reuters",
+          "published": "2026-11-05",
+          "checked": "2026-11-08",
+          "url": "https://www.reuters.com/technology/ibm-amd-oak-ridge-national-laboratory-launch-quantum-error-correction-platform-2026-11-05/"
+        },
+        {
+          "publisher": "AMD Newsroom",
+          "published": "2026-11-05",
+          "checked": "2026-11-08",
+          "url": "https://newsroom.amd.com/news/amd-builds-classical-foundation-quantum-future/"
+        }
+      ]
+    }
+  ],
+  "novelty_review": {
+    "accessible_buffer_posts": 16,
+    "requested_window": "2026-10-09 through 2026-11-08",
+    "earliest_returned_post": "2026-10-29",
+    "previous_zip_history": "Only 2026-11-07 checksum sidecar was found in Library; prior full packs and 90-day ledger unavailable.",
+    "note": "Feed, carousel and Reel concept use distinct topics and are distinct from today's smartphone guide."
+  },
+  "qa": {
+    "static_images": "PASS — all six JPEGs inspected; feed and five slides 1080x1350; contact sheet inspected; Marathi and CTA checked.",
+    "public_media": "PASS — GitHub Actions anonymous HTTP GET returned 200 image/jpeg, exact SHA match and 1080x1350 for all six files.",
+    "reel": "HOLD — no final MP4; no Buffer post.",
+    "scorecard": {
+      "feed": {
+        "factual_confidence": 4,
+        "marathi_quality": 4,
+        "usefulness": 4,
+        "distinctiveness": 4,
+        "visual_execution": 4,
+        "mobile_readability": 4
+      },
+      "carousel": {
+        "factual_confidence": 4,
+        "marathi_quality": 4,
+        "usefulness": 4,
+        "distinctiveness": 4,
+        "visual_execution": 4,
+        "mobile_readability": 4
+      },
+      "reel": {
+        "status": "not scored — no rendered candidate"
+      }
+    }
+  },
+  "website_guide": {
+    "status": "NO PUBLISH TODAY",
+    "budget_band": "₹20,000–₹30,000",
+    "reason": "Current Indian price/stock evidence for the shortlist was inconsistent or not independently confirmed on 2026-11-08. No website writes or deployment were made."
+  },
+  "short_url": {
+    "status": "not_verified",
+    "canonical_url": "https://brandstudio-pi.vercel.app/",
+    "reason": "No verified prior alias found; is.gd endpoint unavailable through this run."
+  }
+}
