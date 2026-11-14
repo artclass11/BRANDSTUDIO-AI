@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-14",
+  "brand": "BRANDSTUDIO",
+  "format": "youtube_short_preproduction",
+  "topic": "TLC vs QLC NAND: what the SSD label does and does not tell you",
+  "audience": "Marathi-speaking consumers choosing laptops, external SSDs and storage devices",
+  "language": "mr-IN",
+  "target_duration_seconds": 48,
+  "aspect_ratio": "9:16",
+  "resolution": "1080x1920",
+  "editorial_angle": "Explain memory-cell density and trade-offs without treating NAND type as a complete speed or reliability ranking.",
+  "hook": "SSD घेताय? TLC आणि QLC मधला फरक समजून घ्या.",
+  "narration_script": "SSD मध्ये TLC आणि QLC हे NAND flash memory चे दोन प्रकार आहेत. TLC cell मध्ये तीन bits, तर QLC cell मध्ये चार bits साठवले जातात. त्यामुळे QLC अधिक data density आणि कमी cost per gigabyte देऊ शकते. पण त्यात write endurance आणि latency बाबत trade-offs असू शकतात. Micron QLC ला मोठ्या, read-intensive storage workloads साठी योग्य मानते; TLC consumer SSD मध्येही मोठ्या प्रमाणावर वापरले जाते. लक्षात ठेवा—फक्त TLC किंवा QLC पाहून SSD चा पूर्ण वेग ठरत नाही. Controller, cache, capacity, firmware, तुमचा वापर आणि warranty मधील TBW तपासा. योग्य SSD म्हणजे तुमच्या कामाला योग्य असलेला SSD.",
+  "storyboard": [
+    {
+      "time": "0-4s",
+      "shot": "Olive-white 3D NAND cell blocks move toward camera; the question appears as a kinetic headline.",
+      "on_screen": "TLC की QLC?"
+    },
+    {
+      "time": "4-12s",
+      "shot": "One memory cell splits into three distinct luminous state bands; each band locks into place.",
+      "on_screen": "TLC = 3 bits / cell"
+    },
+    {
+      "time": "12-20s",
+      "shot": "A parallel cell subdivides into four state bands; data density visibly increases.",
+      "on_screen": "QLC = 4 bits / cell"
+    },
+    {
+      "time": "20-29s",
+      "shot": "A dense storage grid expands while a write-cycle indicator slows; a balanced trade-off graphic, not a performance benchmark.",
+      "on_screen": "जास्त density; वेगळे trade-offs"
+    },
+    {
+      "time": "29-40s",
+      "shot": "Controller, cache, capacity, workload and TBW orbit an SSD silhouette; no fabricated brand/product interface.",
+      "on_screen": "फक्त NAND type पाहून निर्णय नको"
+    },
+    {
+      "time": "40-48s",
+      "shot": "Clean olive/white closing card with BRANDSTUDIO name, website and WhatsApp number.",
+      "on_screen": "BRANDSTUDIO | brandstudio-pi.vercel.app | +91 99218 94495"
+    }
+  ],
+  "visual_identity": {
+    "palette": [
+      "#3F4A32",
+      "#FFFFFF",
+      "#F8FAF6",
+      "#7F8F62"
+    ],
+    "style": "minimal modern editorial; crisp olive and white; no gold or charcoal; original animated data-cell diagrams"
+  },
+  "youtube": {
+    "channel": "Aset",
+    "channel_id": "6af01ffc62b70b94b0baef5e",
+    "title": "TLC vs QLC SSD: कोणता प्रकार कशासाठी? | BRANDSTUDIO",
+    "categoryId": "28",
+    "privacy": "public",
+    "description": "TLC आणि QLC NAND flash memory मधील फरक, density आणि उपयोग समजून घ्या. SSD निवडताना controller, cache, capacity, workload आणि warranty/TBW देखील तपासा.\n\nSources:\nhttps://semiconductor.samsung.com/ssd/\nhttps://www.micron.com/products/storage/nand-flash/choosing-the-right-nand\n\nBRANDSTUDIO: https://brandstudio-pi.vercel.app/\nWhatsApp: +91 99218 94495\n#BRANDSTUDIO #SSD #NANDFlash #Technology #Marathi"
+  },
+  "sources": [
+    {
+      "publisher": "Samsung Semiconductor",
+      "url": "https://semiconductor.samsung.com/ssd/",
+      "supports": "TLC stores 3 bits/cell, QLC stores 4; QLC density and cost trade-offs, use cases and data-retention context."
+    },
+    {
+      "publisher": "Micron Technology",
+      "url": "https://www.micron.com/products/storage/nand-flash/choosing-the-right-nand",
+      "supports": "NAND technology categories, TLC and QLC capacity, performance/endurance trade-offs and applications."
+    }
+  ],
+  "rights_and_production": {
+    "assets": "No footage, music, font or recorded voice included yet. Use original animated NAND diagrams; no fake product shots.",
+    "narration": "Marathi human recording or tested, rights-cleared natural neural voice required; no eSpeak.",
+    "render_worker": "Not available in this session.",
+    "final_mp4": null
+  },
+  "release": {
+    "status": "HOLD",
+    "reasons": [
+      "No final MP4 rendered or decoded.",
+      "No qualified natural Marathi narration currently installed/auditioned.",
+      "DOCS machine-review release implementation and independent creative-critic result are not verified on main.",
+      "No asset-level rights manifest or final SHA-256 exists."
+    ]
+  },
+  "destinations": {
+    "youtube": "Aset; independently eligible once the exact video passes machine QA and rights gates.",
+    "instagram": "@brandsstudio11 is disconnected; content creation and Aset YouTube preparation continue."
+  }
+}
